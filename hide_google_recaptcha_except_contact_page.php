@@ -8,6 +8,10 @@
 
 // add the following in your functions.php
 
+// to hide the captcha badge using CSS method check out the following link : 
+
+// https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-badge.-what-is-allowed
+
 
 // Stop the CF7 CSS & JS FROM LOADING ON EVERY PAGE
 add_filter( 'wpcf7_load_js', '__return_false' );
